@@ -1,0 +1,31 @@
+schema:
+  - name: event_time_utc
+    type: TimestampType
+  - name: elb
+    type: StringType
+  - name: client_ip_port
+    type: StringType
+  - name: backend_ip_port
+    type: StringType
+  - name: request_processing_time_sec
+    type: DoubleType
+  - name: backend_processing_time_sec
+    type: DoubleType
+  - name: response_processing_time_sec
+    type: DoubleType
+  - name: elb_status_code
+    type: IntegerType
+  - name: backend_status_code
+    type: IntegerType
+  - name: received_bytes
+    type: IntegerType
+  - name: sent_bytes
+    type: IntegerType
+  - name: request
+    type: StringType
+  - name: user_agent
+    type: StringType
+  - name: ssl_cipher
+    type: StringType
+  - name: ssl_protocol
+    type: StringType
